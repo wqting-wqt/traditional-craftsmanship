@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 88px;
+    border: 1px solid;
+}
+#header .h_center{
+    width: 1200px;
+    height: 90px;
+
+    margin: 0 auto;
+}
+#header .h_center img{
+    float: left;
+    height: 80px;
+    width: 120px;
+    margin-top: 5px;
+}
+#header .h_center p{
+    float: left;
+    text-align: center;
+    width: 880px;
+    font-size: 14px;
+    border: 1px solid yellow;
+    margin-top: 20px;
+    margin-left: 80px;
+    color: blue;
+    background: pink;
+    padding: 3px;
+}
+#login_body{
+    height: 500px;
+    background-image: url("background2.jpg");
+    
+    background-position: center;
+    background-size: 1000px 500px;
+}
+#login_body .login_b_center{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+#login_body .login_bg{
+    width: 350px;
+    height: 351px;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    right: -10px;
+    top: 80px;
+    padding: 30px;
+
+}
+#login div{
+    height: 40px;
+    margin-top: 20px;
+}
+#login span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: red;
+    float: left;
+    border: 1px gray;
+    font-size: 13px;
+    font-style: italic;
+}
+#login .userName span{
+    background:#EDE4E4;
+}
+#login .password span{
+    background:#EDE4E4;
+}
+
+#login input{
+    width: 250px;
+    height: 40px;
+    float: left;
+}
+#login .login_btn input{
+    background-color: coral;
+    width: 300px;
+    border: none;
+    color: whitesmoke;
+    float: left;
+
+}
+#login .login_btn a:hover{
+    color: blue;
+    float: left;
+
+}
+#login .forgot_password{
+    text-align: right;
+    margin-top: 20px;
+}
+a{
+    text-decoration:none;
+}
+#btn_sub{
+            width: 150px;
+            height: 40px;
+            background-color:#A6ACA4;
+            border: 1px solid #EDE4E4;
+        }
+#footer{height: 100px;text-align: center;font-size: 16px;padding: 0px 100px;position: relative;margin-top:0; background:#EFEDED}
+#footer{cursor: pointer;}
+#copyright{font-size: 12px;}
+#info{font-size: 14px;color:#000000;line-height: 25px;}
+#footer .scroll{display: inline-block;border-radius: 5px;border:2px solid #eaeaea; /* background-color: rgba(216, 16, 109,0.6); */position: absolute;left: 5%;}
+
+
+

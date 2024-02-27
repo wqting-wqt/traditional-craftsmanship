@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.dashed {
+    width: 1050px;
+    height: 1px;
+    border-bottom: 2px dashed #821212;
+}
+table {
+    line-height: 20px;
+}
+table p {
+    font-size: 12px;
+    color: #585858
+}

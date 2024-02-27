@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="吴巧婷">
+<title>创意活动</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="jquery.css">
+<script src="treturnop.js"></script>      
+</head>
+
+<body>
+    <div id="container">
+        <div id="header" align="center">
+            <div id="logo"><img src="传统手工艺.gif" width="180" height="100"></div>
+            <div id ="menu">
+                <ul>
+                   <li><a href="%E2%80%8Cindex.html"><font color="#981B2E"><h3>首页</h3></font></a></li>
+                   <li><a href="手艺资讯.html"><font color="#981B2E"><h3>手艺资讯</h3></font></a></li>
+                   <li><a href="手艺视界.html"><font color="#981B2E"><h3>手艺视界</h3></font></a></li>
+                   <li><a href="专题策划.html"><font color="#981B2E"><h3>专题策划</h3></font></a></li>
+                   <li><a href="创意活动.html"><font color="#981B2E"><h3>创意活动</h3></font></a></li> 
+                   <li><h3><a href="登录.html"><font color="#981B2E">登录|</font></a><a href="注册页面.html"><font color="#981B2E">注册</font></a></h3></li> 
+                </ul>
+            </div>          
+        </div>
+        <div id="jiangyi">
+            <div id="jiangyi01">
+                <div id ="jiangyi011"> 
+                    <!--<a href="http://www.wodsy.com/index_special.html?sid=a49f7627e1d146b985530a063b54de6b" target="_blank"><img src="新生活.jpg" width="320px" height="250px"></a> 
+                    新生活·新风尚·新年画——我们的小康生活（2022）-->
+                    <a href="http://www.wodsy.com/index_brand.html?sid=99a09d31a1f8458eb907e5756e2ec4b3" target="_blank"><img src="国潮手艺.jpeg" width="320px" height="200px"><br>
+                        <p>“国潮手艺”云直播</p></a>
+                </div>
+                <div id ="jiangyi012">
+                    <!--<a href="http://www.wodsy.com/index_special.html?sid=35bc0a68ff674fde91870d7172f97699" target="_blank"><img src="自然文化.jpg" width="320px" height="250px"></a>
+                    2021文化和自然遗产日-->
+                    <a href="http://www.wodsy.com/index_brand.html?sid=pb1" target="_blank"><img src="新年画.jpg" width="320px" height="200px"><br>
+                        <p>“新年画·新生活”——2020年画系列活动</p></a>
+                </div>
+                <div id ="jiangyi013">
+                    <!--<a href="http://www.wodsy.com/index_special.html?sid=0610cf4a34db466c8644f5a8dc29a3ad" target="_blank"><img src="文旅中国.png"  width="320px" height="250px"></a>
+                    <p>文旅中国 百城百艺</p>-->
+                    <a href="http://www.wodsy.com/index_brand.html?sid=78c0dcbe06fb4960a507f47079039673" target="_blank"><img src="国潮手艺人.png" width="320px" height="200px"><br>
+                        <p>《国潮手艺人》</p></a>
+                </div>
+            </div>
+            <div id="jiangyi02">
+                <div id ="jiangyi021">
+                    <!--<img src="国潮手艺 粹享生活——我和祖国共成长.png"  width="320px" height="250px">
+                    <p>国潮手艺 粹享生活——我和祖国共成长</p>-->
+                    <a href="http://www.wodsy.com/index_brand.html?sid=8a1a820456804bb6a30e6d2e8c6fd381" target="_blank"><img src="中国手艺网.jpg" width="320px" height="200px"><br>
+                        <p>2019“中国手艺”创意设计比赛</p></a>
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top" class="hidden">回到顶部</button>
+        <div id="footer1">  
+            <span class="scroll"></span>
+            <!-- <span id="star-five" class="scroll"></span> -->
+            <font color="#000000">
+            <span>法律声明</span>
+            <el-divider direction="vertical"></el-divider>
+            <span>友情链接</span>
+            <el-divider direction="vertical"></el-divider>
+            <span @click="drawer = true">联系我</span>
+            <br>
+            <br>
+            <span class="copyright">版权&copy; 版权所有 吴巧婷</span>
+            </font>
+            <el-drawer
+              title="联系我"
+              :visible.sync="drawer"
+              :direction="direction"
+              :before-close="handleClose">
+              <p id="info">
+                <i class="el-icon-phone"></i>电话：13927008006<br/>
+                <i class="el-icon-message"></i>邮箱：wuqiaoting1204@qq.com<br/>
+              </p>
+            </el-drawer>
+     </div>
+    </div>
+</body>
+</html>
